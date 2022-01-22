@@ -33,9 +33,7 @@ Action機能はコマンド入力から検索語を取得し,メッセージを�
 
 GASとSlackのCommand機能から成り立っています.
 
-コードはこちら
-
-https://script.google.com/d/15BldR3e3o8bHdVeRu7ueptC7WNIcT5NCb0YsiVMIamFYcH3W3Ag8dukO/edit?usp=sharing
+コードは[こちら](https://script.google.com/d/15BldR3e3o8bHdVeRu7ueptC7WNIcT5NCb0YsiVMIamFYcH3W3Ag8dukO/edit?usp=sharing)
 
 Slackのトークンなどのパラメータは各自入力してください.
 
@@ -47,9 +45,7 @@ Interactivity機能はユーザーが選択した結果に対して,検索結果
 
 GASとSlackのInteractivity機能から成り立っています.
 
-コードはこちら
-
-https://script.google.com/d/15XgMnegyG55S3RcQzG8_tBG_lo99wo773VO6iFpaxu4RJlISiPDomCmw/edit?usp=sharing
+コードは[こちら](https://script.google.com/d/15XgMnegyG55S3RcQzG8_tBG_lo99wo773VO6iFpaxu4RJlISiPDomCmw/edit?usp=sharing)
 
 ドライブIDなどのパラメータは各自入力してください.
 
@@ -62,13 +58,12 @@ Database機能は検索したい親ドライブのフォルダ情報を保持す
 
 GSSとGASから成り立っています.
 
-コードはこちら
-
-https://script.google.com/d/1N9M9dWRuqNX400utN-oI1mo6qWoPmTxgEp4iMRo4MX0E-Jx5WmbQGSfH/edit?usp=sharing
+コードは[こちら](https://script.google.com/d/1N9M9dWRuqNX400utN-oI1mo6qWoPmTxgEp4iMRo4MX0E-Jx5WmbQGSfH/edit?usp=sharing)
 
 
-GSSの見本はこちら
+GSSの見本は[こちら](https://docs.google.com/spreadsheets/d/1Yt9vkDL40wPo6evmBiG6vphEMnUFUAotZv1Vsz-ceiU/edit?usp=sharing)
 
-https://docs.google.com/spreadsheets/d/1Yt9vkDL40wPo6evmBiG6vphEMnUFUAotZv1Vsz-ceiU/edit?usp=sharing
+## 開発裏話
+Slack Responseは3秒以内に返らないとSlackが無視してしまう...
 
-
+そこで
