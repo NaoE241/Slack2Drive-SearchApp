@@ -18,7 +18,7 @@ Slackから任意のGoogle Drive内をファイル名検索します
 |  Interactivity  |  ユーザーの反応に対して検索結果を返す  |
 |  Database  |  ドライブのIDを保管する  |
 
-### Slack Appの設定
+## Slack Appの設定
 まずSlack Appを追加するための設定をしましょう.
 
 といっても,必要な設定はoAuthでwrite系列のものを承認すればいいだけです.
@@ -28,7 +28,7 @@ Slackから任意のGoogle Drive内をファイル名検索します
 
 次にこの何もできないアプリに機能を追加していきましょう.
 
-### Action
+## Action
 Action機能はコマンド入力から検索語を取得し,メッセージを返す機能です.
 
 GASとSlackのCommand機能から成り立っています.
@@ -40,7 +40,7 @@ Slackのトークンなどのパラメータは各自入力してください.
 
 こちらのコードをデプロイしたら,デプロイ結果のURLをSlack AppのCommand機能にぶちこんでください.
 
-### Interactivity 
+## Interactivity 
 Interactivity機能はユーザーが選択した結果に対して,検索結果を返す機能です.
 
 GASとSlackのInteractivity機能から成り立っています.
@@ -52,7 +52,7 @@ GASとSlackのInteractivity機能から成り立っています.
 
 こちらのコードをデプロイしたら,デプロイ結果のURLをSlack AppのInteractivity機能にぶちこんでください.
 
-### Database
+## Database
 
 Database機能は検索したい親ドライブのフォルダ情報を保持する機能です.
 
