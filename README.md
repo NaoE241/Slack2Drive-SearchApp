@@ -60,7 +60,7 @@ GSSの見本は[こちら](https://docs.google.com/spreadsheets/d/1Yt9vkDL40wPo6
 ```
 
 ## 開発裏話
-**Slack Responseは3秒以内に返らないとSlackが無視してしまう...
+**Slack Responseは3秒以内に返らないとSlackが無視してしまう...**
 
 つまりどういうことかというと,GASで外部APIを呼び出しすぎると検索処理が間に合わないのです.  
 親フォルダ以下のサブフォルダを全探索する処理が3秒で間に合うはずがありません.  
