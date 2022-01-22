@@ -19,12 +19,9 @@ Slackから任意のGoogle Drive内をファイル名検索します
 |  Database  |  ドライブのIDを保管する  |
 
 ## Slack Appの設定
-まずSlack Appを追加するための設定をしましょう.
-
-といっても,必要な設定はoAuthでwrite系列のものを承認すればいいだけです.
-
+まずSlack Appを追加するための設定をしましょう.　　
+といっても,必要な設定はoAuthでwrite系列のものを承認すればいいだけです.　　
 アプリ名とか画像は後でも大丈夫です.
-
 
 次にこの何もできないアプリに機能を追加していきましょう.
 
@@ -49,6 +46,17 @@ Database機能は検索したい親ドライブのフォルダ情報を保持す
 GSSとGASから成り立っています.  
 コードは[こちら](https://script.google.com/d/1N9M9dWRuqNX400utN-oI1mo6qWoPmTxgEp4iMRo4MX0E-Jx5WmbQGSfH/edit?usp=sharing)  
 GSSの見本は[こちら](https://docs.google.com/spreadsheets/d/1Yt9vkDL40wPo6evmBiG6vphEMnUFUAotZv1Vsz-ceiU/edit?usp=sharing)
+
+## Slack Appのインストール
+最後に各種機能を追加したアプリをインストールしましょう.
+
+確認事項
+- []oAuthが設定されていること
+- []各種GASのパラメータを調整したこと
+- []データベースのGSSにドライブ情報が入っていること
+- []Command機能が設定されていること
+- []Interactivity機能が設定されていること
+- []インストール先が正しいこと
 
 ## 開発裏話
 Slack Responseは3秒以内に返らないとSlackが無視してしまう...
