@@ -20,36 +20,55 @@ Slackから任意のGoogle Drive内をファイル名検索します
 
 ### Slack Appの設定
 まずSlack Appを追加するための設定をしましょう.
+
 といっても,必要な設定はoAuthでwrite系列のものを承認すればいいだけです.
+
 アプリ名とか画像は後でも大丈夫です.
+
 
 次にこの何もできないアプリに機能を追加していきましょう.
 
 ### Action
 Action機能はコマンド入力から検索語を取得し,メッセージを返す機能です.
+
 GASとSlackのCommand機能から成り立っています.
+
 コードはこちら
+
 https://script.google.com/d/15BldR3e3o8bHdVeRu7ueptC7WNIcT5NCb0YsiVMIamFYcH3W3Ag8dukO/edit?usp=sharing
+
 Slackのトークンなどのパラメータは各自入力してください.
+
 
 こちらのコードをデプロイしたら,デプロイ結果のURLをSlack AppのCommand機能にぶちこんでください.
 
 ### Interactivity 
 Interactivity機能はユーザーが選択した結果に対して,検索結果を返す機能です.
+
 GASとSlackのInteractivity機能から成り立っています.
+
 コードはこちら
+
 https://script.google.com/d/15XgMnegyG55S3RcQzG8_tBG_lo99wo773VO6iFpaxu4RJlISiPDomCmw/edit?usp=sharing
+
 ドライブIDなどのパラメータは各自入力してください.
+
 
 こちらのコードをデプロイしたら,デプロイ結果のURLをSlack AppのInteractivity機能にぶちこんでください.
 
 ### Database
+
 Database機能は検索したい親ドライブのフォルダ情報を保持する機能です.
+
 GSSとGASから成り立っています.
+
 コードはこちら
+
 https://script.google.com/d/1N9M9dWRuqNX400utN-oI1mo6qWoPmTxgEp4iMRo4MX0E-Jx5WmbQGSfH/edit?usp=sharing
 
+
 GSSの見本はこちら
+
 https://docs.google.com/spreadsheets/d/1Yt9vkDL40wPo6evmBiG6vphEMnUFUAotZv1Vsz-ceiU/edit?usp=sharing
 
 
