@@ -1,0 +1,2 @@
+# Slack2Drive-SearchApp
+Slackから任意のGoogle Drive内をファイル名検索します
