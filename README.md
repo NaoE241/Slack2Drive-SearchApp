@@ -3,6 +3,7 @@ Slackから任意のGoogle Drive内をファイル名検索します
 
 ## Usage
 - [/設定したコマンド 検索語] ex. /searchfile Mtg
+![image](https://user-images.githubusercontent.com/66460987/150640809-b4d6caf9-6dfd-400c-89c4-183c87143b2f.png)
 - 検索したいドライブを選択
 - 検索結果が返ってくる
 
