@@ -7,6 +7,7 @@ Slackから任意のGoogle Drive内をファイル名検索します
 - 検索したいドライブを選択
 ![image](https://user-images.githubusercontent.com/66460987/150640860-625d7333-c4c2-4c67-959c-1cad92d061ca.png)
 - 検索結果が返ってくる
+![image](https://user-images.githubusercontent.com/66460987/150640888-bade8568-58b8-460e-91fa-05e574d87946.png)
 
 
 ## 各種ファイルの住み分け
